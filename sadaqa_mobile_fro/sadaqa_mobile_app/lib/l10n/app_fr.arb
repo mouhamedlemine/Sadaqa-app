@@ -1,0 +1,41 @@
+{
+  "@@locale": "fr",
+
+  "appName": "Sadaqa",
+  "navExplore": "Explorer",
+  "navVolunteer": "Bénévolat",
+  "navFavorites": "Favoris",
+  "navHowItWorks": "Comment ça marche",
+
+  "searchHint": "Rechercher...",
+  "login": "Se connecter",
+  "logout": "Déconnexion",
+  "myAccount": "Mon compte",
+
+  "viewAll": "Voir tout",
+  "categoriesTitle": "Explorer les catégories",
+  "categoriesSubtitle": "Découvrez les campagnes حسب الفئة التي تهمك",
+
+  "heroTitle": "Aidez les personnes dans le besoin\nSoutenez votre communauté",
+  "heroSubtitle": "Une plateforme reliant les donateurs à des campagnes vérifiées en toute transparence.\nFaites un don rapidement et suivez votre impact.",
+  "exploreCampaigns": "Découvrir les campagnes",
+
+  "campaignWord": "campagne",
+
+  "catSpecialNeeds": "Besoins spécifiques",
+  "catWater": "Eau et assainissement",
+  "catEmergency": "Urgence",
+  "catEducation": "Éducation",
+  "catOrphans": "Orphelins",
+  "catHealth": "Santé",
+
+  "loginRequiredTitle": "Connexion requise",
+  "loginRequiredExploreMsg": "Pour explorer les campagnes et faire un don, veuillez d’abord vous connecter.",
+  "loginRequiredFavoritesMsg": "Veuillez vous connecter pour voir vos favoris.",
+  "loginRequiredVolunteerMsg": "Pour envoyer une demande de bénévolat, veuillez d’abord vous connecter.",
+  "cancel": "Annuler",
+
+  "logoutSuccess": "✅ Déconnexion réussie",
+  "changeLanguage": "Changer la langue",
+  "languageChanged": "✅ Langue changée"
+}

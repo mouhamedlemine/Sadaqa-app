@@ -1,0 +1,41 @@
+{
+  "@@locale": "ar",
+
+  "appName": "صدقة",
+  "navExplore": "استكشف",
+  "navVolunteer": "تطوّع",
+  "navFavorites": "المفضلة",
+  "navHowItWorks": "كيف يعمل",
+
+  "searchHint": "بحث...",
+  "login": "تسجيل الدخول",
+  "logout": "خروج",
+  "myAccount": "حسابي",
+
+  "viewAll": "عرض الكل",
+  "categoriesTitle": "استكشف فئات الحملات",
+  "categoriesSubtitle": "اكتشف الحملات حسب الفئة التي تهمك",
+
+  "heroTitle": "ادعم المحتاجين\nساعد مجتمعك",
+  "heroSubtitle": "منصة تربط المتبرعين بالحملات الخيرية المعتمدة بشفافية.\nتبرّع بسرعة وتابع أثر تبرعك.",
+  "exploreCampaigns": "استكشاف الحملات",
+
+  "campaignWord": "حملة",
+
+  "catSpecialNeeds": "ذوي الاحتياجات الخاصة",
+  "catWater": "المياه والصرف الصحي",
+  "catEmergency": "الإغاثة الطارئة",
+  "catEducation": "التعليم",
+  "catOrphans": "رعاية الأيتام",
+  "catHealth": "الرعاية الصحية",
+
+  "loginRequiredTitle": "تسجيل الدخول مطلوب",
+  "loginRequiredExploreMsg": "لاستكشاف الحملات والتبرع، الرجاء تسجيل الدخول أولاً.",
+  "loginRequiredFavoritesMsg": "لا يمكنك عرض المفضلة إلا بعد تسجيل الدخول.",
+  "loginRequiredVolunteerMsg": "لإرسال طلب تطوّع، الرجاء تسجيل الدخول أولاً.",
+  "cancel": "إلغاء",
+
+  "logoutSuccess": "تم تسجيل الخروج ✅",
+  "changeLanguage": "تغيير اللغة",
+  "languageChanged": "✅ تم تغيير اللغة"
+}

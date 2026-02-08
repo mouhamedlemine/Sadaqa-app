@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://js.stripe.com/v3/"></script>
+
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Sadaqa Flutter Web">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="sadaqa_mobile_app">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>sadaqa_mobile_app</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- ===== Google Login ===== -->
+  <meta name="google-signin-client_id"
+        content="1074890326132-d53a2f96h67lr7l31ph7eq3k06h7u4ko.apps.googleusercontent.com">
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+  <!-- ===== Facebook SDK (للويب فقط) ===== -->
+  <script async defer crossorigin="anonymous"
+          src="https://connect.facebook.net/ar_AR/sdk.js"></script>
+
+  <script>
+    // يتم تشغيله بعد تحميل Facebook SDK
+    window.fbAsyncInit = function () {
+      FB.init({
+        appId: '1530640371530466',   // <-- App ID تبع تطبيقك
+        cookie: true,
+        xfbml: true,
+        version: 'v18.0'
+      });
+      console.log('Facebook SDK initialized');
+    };
+
+    // دالة يستدعيها Flutter
+    function loginWithFacebookJS() {
+      if (typeof FB === 'undefined') {
+        console.error('Facebook SDK not loaded yet');
+        alert('لم يتم تحميل فيسبوك بعد، حدّث الصفحة ثم جرّب مرة أخرى');
+        return;
+      }
+
+      FB.login(function (response) {
+        if (response.authResponse) {
+          const accessToken = response.authResponse.accessToken;
+          console.log('FB accessToken:', accessToken);
+
+          // إرسال التوكن إلى Flutter
+          window.dispatchEvent(
+            new CustomEvent('facebook-login-success', {
+              detail: { accessToken: accessToken }
+            })
+          );
+        } else {
+          window.dispatchEvent(
+            new CustomEvent('facebook-login-failure', {})
+          );
+        }
+      }, { scope: 'public_profile' });   // 👈 بدون email
+    }
+  </script>
+</head>
+
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

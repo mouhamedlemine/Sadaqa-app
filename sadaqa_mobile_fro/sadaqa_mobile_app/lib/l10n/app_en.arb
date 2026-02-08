@@ -1,0 +1,41 @@
+{
+  "@@locale": "en",
+
+  "appName": "Sadaqa",
+  "navExplore": "Explore",
+  "navVolunteer": "Volunteer",
+  "navFavorites": "Favorites",
+  "navHowItWorks": "How it works",
+
+  "searchHint": "Search...",
+  "login": "Login",
+  "logout": "Logout",
+  "myAccount": "My Account",
+
+  "viewAll": "View all",
+  "categoriesTitle": "Explore categories",
+  "categoriesSubtitle": "Discover campaigns by category",
+
+  "heroTitle": "Support people in need\nHelp your community",
+  "heroSubtitle": "A platform connecting donors with verified charity campaigns transparently.\nDonate quickly and track your impact.",
+  "exploreCampaigns": "Explore campaigns",
+
+  "campaignWord": "campaign",
+
+  "catSpecialNeeds": "Special needs",
+  "catWater": "Water and sanitation",
+  "catEmergency": "Emergency",
+  "catEducation": "Education",
+  "catOrphans": "Orphans",
+  "catHealth": "Health",
+
+  "loginRequiredTitle": "Login required",
+  "loginRequiredExploreMsg": "To explore campaigns and donate, please login first.",
+  "loginRequiredFavoritesMsg": "Please login to view your favorites.",
+  "loginRequiredVolunteerMsg": "To send a volunteer request, please login first.",
+  "cancel": "Cancel",
+
+  "logoutSuccess": "✅ Logged out",
+  "changeLanguage": "Change language",
+  "languageChanged": "✅ Language changed"
+}
